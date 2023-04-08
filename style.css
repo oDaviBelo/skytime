@@ -1,0 +1,87 @@
+body{
+    background-color:royalblue;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.stars-area{
+    display: grid;
+    grid-template-columns: repeat(25,1fr);
+    gap: 5vh;
+    width: 100%;
+}
+
+.stars{
+    height: 2px;
+    background-color: white;
+    width:2px;
+    border-radius: 1px;
+    margin-left: 10px;
+}
+
+.sun {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    background-color: yellow;
+    
+   
+   
+}
+
+.sun-morning{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    background-color: yellow;
+    bottom: 0;
+    position: fixed;
+    margin: 0;
+}
+
+.moon {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    box-shadow: 2rem 2rem 0 0 #fff77e;
+}
+
+main{
+    margin: auto;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+#box1{
+    height: 40vh;
+    width: 250px;
+    background-color: #ccc;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-bottom: 15px solid grey;
+    margin: auto;
+    align-items: center;
+    
+            
+}
+
+.window{
+    margin: 0;
+    height: 10px;
+    background-color: blue;
+    width: 20px;
+    margin-left:50%;
+}
+
+
+
+.nature{
+    height: 10vh;
+    width: 100%;
+    background-color: green;
+}
